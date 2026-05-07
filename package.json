@@ -23,5 +23,8 @@
   },
   "scripts": {
     "test": "jest tests"
+  },
+  "dependencies": {
+    "underscore": "^1.13.8"
   }
 }
