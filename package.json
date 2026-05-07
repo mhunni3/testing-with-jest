@@ -15,8 +15,7 @@
     "url": "git+https://github.com/mhunni3/testing-with-jest.git"
   },
   "license": "MIT",
-  "author": "mHunni3",
-  "type": "commonjs",
+  "author": "mHunni3", 
   "main": "src/index.js",
   "directories": {
     "test": "tests"
