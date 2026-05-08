@@ -16,3 +16,12 @@ exports.pop = function () {
 exports.peek = function () {
     return _.last(stack);
 }
+
+/*
+Returnerar längden på stacken för att kunna köra någon sorts rimlig test
+Av:     Martin Frick 
+Datum:  260508
+*/
+exports.length = function () {
+    return stack.length;
+}

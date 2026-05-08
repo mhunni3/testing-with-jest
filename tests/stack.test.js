@@ -17,3 +17,16 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBeDefined();
     expect(stack.peek()).toBe(42);
 });
+
+/*
+Testar längden på stacken efter en push
+Av:     Martin Frick 
+Datum:  260508
+*/
+test('perform push on stack, verify length of stack is is correctly incremented', () => {
+
+    const oldLng = stack.length() /*+ 5*/;
+    stack.push("wow2");
+
+    expect(stack.length()).toBe(oldLng+1);
+});
