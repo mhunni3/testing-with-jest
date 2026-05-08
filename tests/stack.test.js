@@ -25,7 +25,7 @@ Datum:  260508
 */
 test('perform push on stack, verify length of stack is is correctly incremented', () => {
 
-    const oldLng = stack.length() /*+ 5*/;
+    const oldLng = stack.length() + 5;
     stack.push("wow2");
 
     expect(stack.length()).toBe(oldLng+1);
